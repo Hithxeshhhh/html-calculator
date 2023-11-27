@@ -1,0 +1,149 @@
+.container{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(245, 0, 0);
+    position: absolute;
+    left: 40%;
+    top:20%;
+    padding: 10px;
+
+}
+.result{
+    position: relative;
+    top: 2%;
+    width:290px ;
+    height :90px ;
+    border-radius: 7%;
+    left: 0.7%;
+    color: white;
+    font-size: 26pt;
+}
+.res{
+    top:-8% ;
+    left: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+    
+.a{
+    background-color: #bbb;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: larger;
+
+    
+}
+.notch{
+    width: 120px;
+    height: 4px;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    left: 30%;
+    top: 3%;
+    
+}
+.zero,a{
+    width: 120px;
+    border-radius: 25px;
+    
+}
+.divide,a,.mul,a,.sub,a,.add,a,.equals,a{
+    background-color:rgb(249, 176, 0);
+}
+.seven,.eight,.nine,.four,.five,.six,.one,.two,.three,.point,.zero{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.a:hover{
+    box-shadow: 0 1px 1px 0 #c8e0e8;
+    opacity: 0.5;
+}
+@media(max-width:480px)
+{
+    .container{
+        width: 300px;
+        height: 500px;
+        border: 2px solid black;
+        border-radius: 30px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(245, 0, 0);
+        position: absolute;
+        left: 5%;
+        top:10%;
+        padding: 10px;
+    
+    }
+    .result{
+        position: relative;
+        top: 2%;
+        width:290px ;
+        height :90px ;
+        border-radius: 7%;
+        left: 0.7%;
+        color: white;
+        font-size: 26pt;
+    }
+    .res{
+        top:-8% ;
+        left: 80%;
+        font-family: 'Poppins', sans-serif;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+        
+    .a{
+        background-color: #bbb;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: black;
+        font-size: larger;
+    
+        
+    }
+    .notch{
+        width: 120px;
+        height: 4px;
+        background-color: white;
+        border-radius: 25px;
+        position: relative;
+        left: 30%;
+        top: 3%;
+        
+    }
+    .zero,a{
+        width: 120px;
+        border-radius: 25px;
+        
+    }
+    .divide,a,.mul,a,.sub,a,.add,a,.equals,a{
+        background-color:rgb(249, 176, 0);
+    }
+    .seven,.eight,.nine,.four,.five,.six,.one,.two,.three,.point,.zero{
+        background-color: rgb(51, 51, 51);
+        color: white;
+    }
+}
